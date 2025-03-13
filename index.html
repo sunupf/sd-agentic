@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDR Chat</title>
+</head>
+<body>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var s,t; s = document.createElement('script'); s.type = 'text/javascript';
+            s.src = 'https://omnichannel.qiscus.com/js/qismo-v4.js'; s.async = true;
+            s.onload = s.onreadystatechange = function() { new Qismo('cab-am1g5l8izf3wswbe6', {
+                            options: {
+                                channel_id: 130615, qismoIframeUrl: 'https://omnichannel.qiscus.com', baseUrl: 'https://omnichannel.qiscus.com',
+                                extra_fields: [], 
+                            }
+                        }); }
+            t = document.getElementsByTagName('script')[0]; t.parentNode.insertBefore(s, t);
+        });
+    </script>
+</body>
+</html>
